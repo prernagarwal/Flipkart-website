@@ -1,0 +1,199 @@
+body{
+	/*background-color: red;*/
+	height: 1000px;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #023b6d !important;
+    height: 50px;
+}
+
+.navbar-brand {
+    padding-top: var(--bs-navbar-brand-padding-y);
+    padding-bottom: var(--bs-navbar-brand-padding-y);
+    margin-right: var(--bs-navbar-brand-margin-end);
+    font-size: var(--bs-navbar-brand-font-size);
+    color: #FAFAFA;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.navbar-brand h5{
+	color: white;
+}
+h5{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: white;
+}
+
+
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: #FFF8E1;
+        --bs-nav-link-hover-color: #9FA8DA;
+    --bs-nav-link-disabled-color: var(--bs-secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.col-md-3{
+	background-color: black;
+	height: 1000px;
+	width: 300px;
+}
+
+.profile img{
+    width: 120px;
+    /*padding-top: 10px;*/
+    margin-top: 20px;
+    border: 8px solid #2c2f3f;
+    margin-left: 60px;
+}
+.profile h1{
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+	margin-top: 15px;
+}
+
+.list-group {
+    --bs-list-group-color: #F5F5F5;
+    --bs-list-group-bg: black;
+    --bs-list-group-border-color: black;
+    --bs-list-group-border-width: var(--bs-border-width);
+    --bs-list-group-border-radius: var(--bs-border-radius);
+    --bs-list-group-item-padding-x: 1rem;
+    --bs-list-group-item-padding-y: 0.5rem;
+    --bs-list-group-action-color: var(--bs-secondary-color);
+    --bs-list-group-action-hover-color: var(--bs-emphasis-color);
+    --bs-list-group-action-hover-bg: var(--bs-tertiary-bg);
+    --bs-list-group-action-active-color: var(--bs-body-color);
+    --bs-list-group-action-active-bg: var(--bs-secondary-bg);
+    --bs-list-group-disabled-color: var(--bs-secondary-color);
+    --bs-list-group-disabled-bg: var(--bs-body-bg);
+    --bs-list-group-active-color: #fff;
+    --bs-list-group-active-bg: #0d6efd;
+    --bs-list-group-active-border-color: #0d6efd;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    margin-bottom: 0;
+    border-radius: var(--bs-list-group-border-radius);
+    padding-top: 30px;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+    color: var(--bs-list-group-color);
+    text-decoration: none;
+    background-color: var(--bs-list-group-bg);
+    border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+    padding-top: 12px;
+    padding-left: 15px;
+}
+
+a {
+    color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+    text-decoration: none;
+}
+.list-group-item:hover{
+	    color: #149ddd;
+	    cursor: pointer;
+}
+
+
+.col-md-9{
+	/*background-color: red;*/
+	height: 1000px;
+
+}
+.image{
+	background-image: url(images/5.jpg);
+	height: 690px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin-right: -92px;
+    margin-left: -12px;
+}
+.about{
+    height: 220px;
+    padding: 60px 0;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}  
+.about h2{
+    color: #173b6c;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+        margin-bottom: 20px;
+            padding-bottom: 20px;
+} 
+.col-md-4{
+    /*background-color: pink;*/
+    height: auto;
+}
+.col-md-8{
+    /*background-color: blue;*/
+
+}
+.content h3{
+    font-weight: 700;
+    font-size: 26px;
+    color: #173b6c;
+}
+.content p{
+    font-style: italic!important;
+}
+
+.detail{
+    /*background-color: green;*/
+    height: 190px;
+}
+.detail .col-md-6{
+    /*background-color: yellow;*/
+    height: 180px;
+}
+.col-md-4 img{
+    height: 350px;
+    width: 300px;
+}
+
+.detail .list-group{
+    --bs-list-group-bg: white;
+    --bs-list-group-border-color: white;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-left: -12px;
+    --bs-list-group-color: black;
+
+}
+.fw-bold{
+    color: black;
+}
+.col-md-6 span{
+    margin-right: 137px;
+    color: #000000b8;
+}
+.skills{
+    background: #f5f8fd;
+    height: 500px;
+    
+}
+.menu .fa {
+    padding-right: 8px;
+}
